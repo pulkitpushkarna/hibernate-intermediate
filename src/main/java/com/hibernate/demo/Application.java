@@ -13,7 +13,7 @@ public class Application {
         session.beginTransaction();
         Employee employee=new Employee();
         employee.setId(12);
-        employee.setName("John");
+        employee.setName("Johnas");
         session.save(employee);
         session.getTransaction().commit();
         session.close();
